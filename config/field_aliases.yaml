@@ -1,0 +1,120 @@
+# 字段别名配置: 将用户上传表格的列名映射为标准字段名
+# 大小写不敏感匹配
+
+rank:
+  - "#"
+  - rank
+  - ranking
+  - 排名
+  - 类目排名
+
+asin:
+  - asin
+  - ASIN
+  - 商品编码
+
+title:
+  - title
+  - product title
+  - product name
+  - 商品标题
+  - 产品标题
+  - 标题
+  - 产品名称
+  - 商品名称
+  - 名称
+
+image_url:
+  - image_url
+  - 商品主图
+  - 图片
+  - main image
+  - image
+
+bullet_points:
+  - bullet_points
+  - 产品卖点
+  - 卖点
+  - bullet points
+  - product features
+
+brand:
+  - brand
+  - 品牌
+  - seller brand
+
+price:
+  - price
+  - current price
+  - sale price
+  - selling price
+  - list price
+  - 价格
+  - 售价
+  - 当前价格
+  - 现价
+  - 商品价格
+
+rating:
+  - rating
+  - star rating
+  - stars
+  - 评分
+  - 商品评分
+  - 产品评分
+  - 星级评分
+  - 星级
+
+review_count:
+  - review_count
+  - review count
+  - reviews
+  - rating count
+  - ratings count
+  - number of reviews
+  - customer reviews
+  - 评论数
+  - 评论数量
+  - 评价数
+  - 评分数
+  - 评分数量
+  - 评论量
+  - 评价数量
+  - ratings
+
+category:
+  - category
+  - 类目
+  - 分类
+
+bsr:
+  - bsr
+  - best sellers rank
+  - BSR
+  - 大类BSR
+  - 小类BSR
+
+monthly_sales:
+  - 月销量
+  - monthly sales
+  - sales
+
+monthly_revenue:
+  - 月销售额($)
+  - monthly revenue
+  - revenue
+
+seller_count:
+  - 卖家数
+  - seller count
+  - sellers
+
+listing_days:
+  - 上架天数
+  - listing days
+  - days live
+
+fulfillment:
+  - 配送方式
+  - fulfillment
+  - shipping method

@@ -1,0 +1,30 @@
+# 选品评分规则配置
+# 权重总和必须为 100
+
+market_demand:
+  weight: 20
+  description: "市场需求强度, 主要看 Top100 评论总量、中位数评论数、评论分布"
+
+competition_intensity:
+  weight: 15
+  description: "竞争强度, 主要看评论数过高产品占比、品牌集中度、评分成熟度"
+
+price_opportunity:
+  weight: 15
+  description: "价格机会, 主要看主流价格带、可切入价格带、价格分散度"
+
+improvement_opportunity:
+  weight: 20
+  description: "改良机会, 主要看评分低但评论多的产品比例、标题卖点同质化程度"
+
+brand_concentration:
+  weight: 10
+  description: "品牌集中度, 品牌越集中, 新卖家进入难度越高"
+
+risk_level:
+  weight: 10
+  description: "风险等级, 包括认证、侵权、易碎、带电、液体、儿童用品等"
+
+data_quality:
+  weight: 10
+  description: "数据质量, 表格字段越完整, 结论越可靠"

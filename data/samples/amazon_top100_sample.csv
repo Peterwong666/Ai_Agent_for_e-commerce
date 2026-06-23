@@ -1,0 +1,26 @@
+rank,asin,title,brand,price,rating,review_count,category,bsr,image_url,product_url
+1,B0EXAMPLE01,"Dog Slow Feeder Bowl, Anti-Gulp Puzzle Food Bowl, BPA-Free, Large",PawEats,19.99,4.5,4521,"Pet Supplies > Dog Bowls",245,https://example.com/img1.jpg,https://example.com/prod/B0EXAMPLE01
+2,B0EXAMPLE02,"Slow Feed Dog Bowl with Non-Slip Base, Fun Maze Design, Medium",DogBuddy,22.99,4.3,3287,"Pet Supplies > Dog Bowls",312,https://example.com/img2.jpg,https://example.com/prod/B0EXAMPLE02
+3,B0EXAMPLE03,"Stainless Steel Slow Feeder Bowl for Dogs, Heavy Duty Anti-Skid",PetMaster,24.99,4.7,6012,"Pet Supplies > Dog Bowls",178,https://example.com/img3.jpg,https://example.com/prod/B0EXAMPLE03
+4,B0EXAMPLE04,"Dog Puzzle Bowl Slow Feeder, Silicone Mat Included, 3 Cup Capacity",PawEats,21.99,4.2,2156,"Pet Supplies > Dog Bowls",423,https://example.com/img4.jpg,https://example.com/prod/B0EXAMPLE04
+5,B0EXAMPLE05,"Interactive Slow Eating Dog Bowl, Spiral Design, Easy Clean, Blue",FurryFun,17.99,4.6,8934,"Pet Supplies > Dog Bowls",89,https://example.com/img5.jpg,https://example.com/prod/B0EXAMPLE05
+6,B0EXAMPLE06,"Slow Feeder Dog Bowl, Melamine, Dishwasher Safe, Pack of 2",BarkNest,25.99,4.1,1876,"Pet Supplies > Dog Bowls",567,https://example.com/img6.jpg,https://example.com/prod/B0EXAMPLE06
+7,B0EXAMPLE07,"Premium Slow Feed Dog Bowl, Bamboo Fiber, Eco-Friendly, Large Breed",GreenPet,29.99,4.4,987,"Pet Supplies > Dog Bowls",1203,https://example.com/img7.jpg,https://example.com/prod/B0EXAMPLE07
+8,B0EXAMPLE08,"Dog Slow Feeder Insert, Fits Standard Bowl, 3 Maze Patterns",PawEats,14.99,4.0,3456,"Pet Supplies > Dog Bowls",334,https://example.com/img8.jpg,https://example.com/prod/B0EXAMPLE08
+9,B0EXAMPLE09,"Ceramic Slow Feed Dog Bowl, Heavy Weight Non-Tip, White",HomeHound,27.99,4.8,523,"Pet Supplies > Dog Bowls",2100,https://example.com/img9.jpg,https://example.com/prod/B0EXAMPLE09
+10,B0EXAMPLE10,"Foldable Slow Feeder Dog Bowl, Travel Portable, Silicone, 2 Cup",FurryFun,15.99,4.2,7234,"Pet Supplies > Dog Bowls",145,https://example.com/img10.jpg,https://example.com/prod/B0EXAMPLE10
+11,B0EXAMPLE11,"Dog Slow Feeder Bowl with Raised Stand, Ergonomic, Adjustable Height",BarkNest,34.99,4.5,1567,"Pet Supplies > Dog Bowls",678,https://example.com/img11.jpg,https://example.com/prod/B0EXAMPLE11
+12,B0EXAMPLE12,"Slow Feeder Water Bowl Combo, 2-in-1 Design, Non-Spill",DogBuddy,26.99,4.1,2345,"Pet Supplies > Dog Bowls",456,https://example.com/img12.jpg,https://example.com/prod/B0EXAMPLE12
+13,B0EXAMPLE13,"Dog Slow Feeder Mat, Lick Pad + Slow Feed, Freezer Safe, 3 Colors",PawEats,12.99,4.3,4321,"Pet Supplies > Dog Bowls",234,https://example.com/img13.jpg,https://example.com/prod/B0EXAMPLE13
+14,B0EXAMPLE14,"Extra Large Slow Feed Dog Bowl, Deep Maze, for Large/Giant Breeds",PetMaster,28.99,4.6,2109,"Pet Supplies > Dog Bowls",389,https://example.com/img14.jpg,https://example.com/prod/B0EXAMPLE14
+15,B0EXAMPLE15,"Dog Slow Feeder Puzzle Toy, Treat Dispenser + Slow Feed Combo",FurryFun,23.99,4.4,3789,"Pet Supplies > Dog Bowls",267,https://example.com/img15.jpg,https://example.com/prod/B0EXAMPLE15
+16,B0EXAMPLE16,"Plastic Slow Feeder Dog Bowl, Spiral Pattern, Non-Slip Feet, Small",DogBuddy,11.99,3.9,5678,"Pet Supplies > Dog Bowls",178,https://example.com/img16.jpg,https://example.com/prod/B0EXAMPLE16
+17,B0EXAMPLE17,"Slow Feed Dog Bowl Set, 2 Bowls + 2 Mats, Value Pack",BarkNest,32.99,4.7,1234,"Pet Supplies > Dog Bowls",523,https://example.com/img17.jpg,https://example.com/prod/B0EXAMPLE17
+18,B0EXAMPLE18,"Dog Slow Feeder, Flower Shape, Cute Design, Small Breed, Pink",PawPawPet,13.99,4.0,876,"Pet Supplies > Dog Bowls",1890,https://example.com/img18.jpg,https://example.com/prod/B0EXAMPLE18
+19,B0EXAMPLE19,"Heavy Duty Dog Slow Feeder, Chew Proof, Stainless Steel Insert",PetMaster,31.99,4.8,432,"Pet Supplies > Dog Bowls",2456,https://example.com/img19.jpg,https://example.com/prod/B0EXAMPLE19
+20,B0EXAMPLE20,"Dog Slow Feeder with Timer, Portion Control, LCD Display, USB Charge",SmartPet,39.99,3.8,210,"Pet Supplies > Dog Bowls",4500,https://example.com/img20.jpg,https://example.com/prod/B0EXAMPLE20
+21,B0EXAMPLE21,"Dog Slow Feeder, Oval Shape, Gentle Slope, Senior Dogs",GreenPet,18.99,4.5,1654,"Pet Supplies > Dog Bowls",678,https://example.com/img21.jpg,https://example.com/prod/B0EXAMPLE21
+22,B0EXAMPLE22,"Double Dog Slow Feeder, Dual Bowl, Side-by-Side, Multi-Pet Home",BarkNest,35.99,4.2,987,"Pet Supplies > Dog Bowls",1345,https://example.com/img22.jpg,https://example.com/prod/B0EXAMPLE22
+23,B0EXAMPLE23,"Dog Slow Feeder Bone Shape, Fun Design, Durable Plastic, Medium",FurryFun,16.99,4.1,3456,"Pet Supplies > Dog Bowls",345,https://example.com/img23.jpg,https://example.com/prod/B0EXAMPLE23
+24,B0EXAMPLE24,"Elevated Slow Feed Dog Bowl, Wood Stand, Modern Design, Set of 1",HomeHound,42.99,4.6,345,"Pet Supplies > Dog Bowls",3200,https://example.com/img24.jpg,https://example.com/prod/B0EXAMPLE24
+25,B0EXAMPLE25,"Dog Slow Feeder Mini, for Toy Breeds, Micro Maze, 1 Cup",PawPawPet,9.99,4.3,2890,"Pet Supplies > Dog Bowls",567,https://example.com/img25.jpg,https://example.com/prod/B0EXAMPLE25
