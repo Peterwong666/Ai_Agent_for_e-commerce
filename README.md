@@ -1,13 +1,15 @@
 # 跨境电商选品 AI Agent
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-managed-purple.svg)](https://docs.astral.sh/uv/)
-[![pytest](https://img.shields.io/badge/tests-39-green.svg)](./tests)
+[![pytest](https://img.shields.io/badge/tests-50-green.svg)](./tests)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 > 基于 Amazon 类目 Top 100 数据的智能选品分析工具。上传卖家精灵导出的表格，自动完成数据清洗、指标计算、规则评分，并生成结构化选品报告。
 >
 > **核心设计**：数值计算由代码完成，语义分析交给 AI —— 规则引擎与 DeepSeek 深度融合。
+
+**English version → [README_EN.md](./README_EN.md)**
 
 <!-- 图片位置 1：项目封面/主界面截图 -->
 <!-- 建议图片：Streamlit 主界面，展示侧边栏配置 + 数据预览区域，尺寸 1200×700 左右 -->
@@ -129,7 +131,7 @@ uv run streamlit run app.py
 | 评论数分布 | 0-99 / 100-499 / 500-999 / 1000-4999 / 5000-9999 / 10000+ |
 | 品牌集中度 | Top 1/3/5 品牌占比分析 |
 | 价格机会 | 主流价格带 + 建议切入区间（中位价 ± 20%） |
-| 风险检测 | 40+ 中英文风险关键词，覆盖认证、侵权、安全、物流 |
+| 风险检测 | 44 个中英文风险关键词（24 英 + 20 中），覆盖认证、侵权、安全、物流 |
 | 产品机会 | 自动筛选「评论多 + 评分低」的改良候选 |
 
 ### 评分模型
@@ -228,7 +230,7 @@ DEEPSEEK_MODEL=deepseek-chat
 
 ### 本地部署
 
-按照 [快速开始](#快速开始) 步骤执行即可。项目依赖 `uv` 自动管理 Python 版本和虚拟环境，无需手动安装 Python 3.11。
+按照 [快速开始](#快速开始) 步骤执行即可。项目依赖 `uv` 自动管理 Python 版本和虚拟环境，无需手动安装 Python 3.12。
 
 ### 服务器部署（Linux）
 
@@ -256,7 +258,7 @@ uv run streamlit run app.py --server.address 0.0.0.0 --server.port 8501
 项目目前未内置 Dockerfile。如需容器化，可参考以下最小示例：
 
 ```dockerfile
-FROM ghcr.io/astral-sh/uv:python3.11-bookworm
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm
 
 WORKDIR /app
 COPY . .
@@ -273,10 +275,6 @@ CMD ["uv", "run", "streamlit", "run", "app.py", "--server.address=0.0.0.0"]
 - **Streamlit Community Cloud**：直接上传 GitHub 仓库即可部署
 - **Hugging Face Spaces**：选择 Streamlit SDK，上传代码
 - **自有服务器**：使用 `systemd` 或 `supervisor` 托管 Streamlit 进程
-
-<!-- 图片位置 6：部署架构/运行示意图 -->
-<!-- 建议图片：展示浏览器访问 localhost:8501 的界面，或服务器部署流程图 -->
-![部署示意图](docs/images/deploy.png)
 
 ---
 
@@ -361,8 +359,8 @@ uv run streamlit run app.py --server.port 8502
 
 - [快速使用指南](./快速使用.md) — 5 分钟上手
 - [详细使用说明](./详细使用说明.md) — 功能、评分模型、架构详解
-- [设计文档](./docs/superpowers/specs/2026-06-22-ecom-product-agent-design.md) — 产品设计与技术决策
-- [CLAUDE.md](./CLAUDE.md) — 项目开发规范
+
+> 以上两篇深入文档目前仅有中文版。
 
 ---
 
@@ -376,7 +374,7 @@ uv run streamlit run app.py --server.port 8502
 | AI 接口 | DeepSeek API | OpenAI 兼容接口 |
 | 配置管理 | YAML + `.env` | 规则可配、密钥安全 |
 | 数据存储 | SQLite | 零配置历史记录 |
-| 测试 | pytest | 39 个单元/集成测试 |
+| 测试 | pytest | 50 个单元/集成测试 |
 
 ---
 
